@@ -1,6 +1,16 @@
 # Machine-Learning
 
-This repository is organized into folders. Each folder contains code that demonstrates a machine learning concept.
+This repository is organized into folders. Each folder contains a `README.md` and notebooks that demonstrate a machine learning concept.
+
+See "Machine Learning Tasks"and the "Machine Learning Techniques" below to get an idea of the content of each folder. 
+
+## Datasets
+* [Kaggle](https://www.kaggle.com/)
+* [UCI Repository](https://archive.ics.uci.edu/ml/index.php)
+* [Dataset Search](https://datasetsearch.research.google.com/)
+* [AWS Public Datasets](https://aws.amazon.com/opendata)
+* [Stanford Large Network Dataset Collection](https://snap.stanford.edu/data/)
+
 
 ## Machine Learning Tasks
 
