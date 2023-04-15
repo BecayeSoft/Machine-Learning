@@ -2,6 +2,8 @@
 
 This repository is organized into folders. Each folder contains a `README.md` and notebooks that demonstrate a machine learning concept.
 
+Please, feel free to contribute by forking the repository or by simply opening an issue.
+
 See "Machine Learning Tasks"and the "Machine Learning Techniques" below to get an idea of the content of each folder. 
 
 ## Datasets
