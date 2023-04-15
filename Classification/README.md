@@ -10,7 +10,7 @@ features = dataset.iloc[:, :-1].values         # get all column except the last 
 target = dataset.iloc[:, -1].values            # get the last column (target)
 ```
 
-After choosing a dataset to predict a class, you may use any of the following algorithms:
+In this section, we predict breast cancer using:
 
 * Decision Tree Classification
 * K Nearest Neighbors
