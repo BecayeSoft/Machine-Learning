@@ -13,7 +13,7 @@ This repository is organized into folders. Each folder contains code that demons
 * Support Vector Regression
 
 ### Classification
-* Decision_tree_classification.ipynb
+* Decision Tree Classification
 * K Nearest Neighbors
 * Kernel SVM
 * Logistic Regression
