@@ -1,4 +1,4 @@
-# CLustering
+# Clustering
 Clustering is an unsupervised machine learning technique that involves grouping similar data points together based on their features or characteristics. it is unsupervised beacause it does not require labeled data.
 Clustering is can be used for customer segmentation, image segmentation, and anomaly detection.
 
