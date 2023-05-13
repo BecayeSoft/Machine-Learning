@@ -113,6 +113,7 @@ class SOM:
 
                 # if the current neuron is in the radius
                 if distance <= radius:
+                    # 
                     influence = neighborhood[i, j] * decay
                     w += lr * influence * (v - w)
 
@@ -120,7 +121,9 @@ class SOM:
 
     def _gaussian(self, bmu, radius):
         """
-        Computes the Euclidian distance between the BMU and each neuron.
+        Compute the Euclidian distance between the BMU and each neuron,
+        then return a value inversely proportional to the distance,
+        i.e the lower the distance (close neuron), the higher the returned value (influence).
         The distance are computed using the coordinates of the neurons on the map.
         """
 
