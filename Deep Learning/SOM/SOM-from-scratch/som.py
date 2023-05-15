@@ -113,7 +113,6 @@ class SOM:
 
                 # if the current neuron is in the radius
                 if distance <= radius:
-                    # 
                     influence = neighborhood[i, j] * decay
                     w += lr * influence * (v - w)
 
@@ -127,7 +126,7 @@ class SOM:
         The distance are computed using the coordinates of the neurons on the map.
         """
 
-        # distance between each neuron of the map and the BMU
+        # distance between each neuron of the map and the BMU (in coordinates)
         x, y = np.indices(self.map_size)
         distance = np.linalg.norm([x - bmu[0], y - bmu[1]], axis=0)  # 2D array
 
