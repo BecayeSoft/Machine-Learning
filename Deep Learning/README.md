@@ -10,6 +10,6 @@ LSTM: Long Short-Term Memory
 
 MLP: Multi-layer Perceptron
 
-SOM: Self-Organizing Map
+SOM: Self-Organizing Maps
 
 VAE: Variational Auto-encoders
