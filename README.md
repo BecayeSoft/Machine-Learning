@@ -1,7 +1,8 @@
 # Machine-Learning
 
-Welcome to the Machine Learning repository! This collection of Jupyter notebooks provides a guide to common machine learning techniques such as regression, classification, data preprocessing, PCA, and hyperparameter tuning. 
-Whether you're new to machine learning or a seasoned practitioner, these notebooks can help you learn, practice, and apply these techniques in your own projects.
+Welcome to the Machine Learning repository! This collection of Jupyter notebooks provides a guide to common machine learning techniques such as regression, classification, data preprocessing, PCA, and hyperparameter tuning.
+It also contains a section for "Deep Learning".
+Whether you're new to machine learning or a seasoned practitioner, these notebooks can help you practice and apply the techniques more easily.
 
 This repository is organized into folders. Each folder contains a `README.md` and notebooks that demonstrate a machine learning concept.
 
@@ -10,16 +11,10 @@ This repository is organized into folders. Each folder contains a `README.md` an
 See "Machine Learning Tasks"and the "Machine Learning Techniques" below to get an idea of the content of each folder. 
 
 ## Datasets
-* [Kaggle](https://www.kaggle.com/)
-* [UCI Repository](https://archive.ics.uci.edu/ml/index.php)
-* [Dataset Search](https://datasetsearch.research.google.com/)
-* [AWS Public Datasets](https://aws.amazon.com/opendata)
-* [Stanford Large Network Dataset Collection](https://snap.stanford.edu/data/)
+* Popular websites to find datasets.
 
-
-## Machine Learning Tasks
-
-### Regression
+## Regression
+Predict a continuous value. <br>E.g.: House price.
 * Decision Tree Regression
 * Multiple Linear Regression
 * Polynomial Regression
@@ -27,7 +22,8 @@ See "Machine Learning Tasks"and the "Machine Learning Techniques" below to get a
 * Simple Linear Regression
 * Support Vector Regression
 
-### Classification
+## Classification
+Predict a discrete value. <br>E.g.: Whether a patient has breast Cancer or not.
 * Decision Tree Classification
 * K Nearest Neighbors
 * Kernel SVM
@@ -36,18 +32,32 @@ See "Machine Learning Tasks"and the "Machine Learning Techniques" below to get a
 * Random Forest Classification
 * Support Vector Machine
 
-### Clustering
+## Clustering
+Group similar entities. <br>E.g.: Group mall customers into categories.
 * K-Means Clustering
 * Hierarchical Clustering
 
-### Association Rule Learning
+## Association Rule Learning
+Identify relationships among variables. <br>E.g.: A customer who bought coffee is likely to buy sugar.
 * Apriori
 * Eclat
 
-## Machine Learning Techniques
-
-### Dimensionality Reduction
+## Dimensionality Reduction
+Reduce the number of input variables while preserving essential information.
 * Principal Component Analysis
 
-### Hyperparameter Tuning
+## Hyperparameter Tuning
+Optimize the parameters of a model to improve its performance.
 * RandomizedSearchCV
+
+## Deep Learning
+Use neural networks to learn complex patterns and representations from data.
+
+* Perceptron
+* Multi-layer Perceptron
+* Convolutional Neural Networks
+* Auto-encoders
+* Variational Auto-encoders
+* Long Short-Term Memory
+* Generative Adversial Networks
+* Self-Organizing Maps
