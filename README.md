@@ -1,6 +1,6 @@
 # Machine-Learning
 
-Welcome to the Machine Learning repository! This collection of Jupyter notebooks provides a guide to common machine learning techniques such as regression, classification, data preprocessing, PCA, and hyperparameter tuning.
+Welcome to the Machine Learning repository! This collection of Jupyter notebooks and code provides a guide to common machine learning techniques such as regression, classification, data preprocessing, PCA, and hyperparameter tuning.
 It also contains a section for "Deep Learning".
 Whether you're new to machine learning or a seasoned practitioner, these notebooks can help you practice and apply the techniques more easily.
 
