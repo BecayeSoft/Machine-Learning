@@ -6,3 +6,8 @@ Hyperparameter tuning involves exploring different combinations of hyperparamete
 
 This section demonstrates at least one hyperparameter tuning technique: 
 * Random Search
+
+
+## References
+* [WillKoehrsen/Machine-Learning-Projects/random_forest_explained](https://github.com/WillKoehrsen/Machine-Learning-Projects/tree/master/random_forest_explained)
+*  [sklearn.model_selection.RandomizedSearchCV](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.RandomizedSearchCV.html)
