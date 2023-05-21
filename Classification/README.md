@@ -1,4 +1,7 @@
 # Classification
+
+⚠️ The RandomForest notebook is more detailed and complete. I advise you to open it. The other notebooks only differ in the algorithm they use.
+
 CLassificaiton is a type of supervised learning used to predict the class of data. 
 It can be used for instance for image recognition, spam filtering, and fraud detection.
 
