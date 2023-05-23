@@ -61,3 +61,9 @@ Use neural networks to learn complex patterns and representations from data.
 * Long Short-Term Memory
 * Generative Adversial Networks
 * Self-Organizing Maps
+
+## Natural Language Processing
+The NLP folder lacks good resources at the moment. Interesting notebooks will be added later. As of now, it contains:
+
+* Basics concepts: Tokenization, Stopwords, Stemming and Bag of words.
+* Sentiment Analysis 
