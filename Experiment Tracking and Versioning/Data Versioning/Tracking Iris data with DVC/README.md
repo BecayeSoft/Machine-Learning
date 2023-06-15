@@ -4,6 +4,7 @@
 ## Project Setup
 First, initialize the project. I use `--subdir` since my project is inside a parent repository.
 ```
+pip install dvc
 dvc init --subdir
 ```
 
