@@ -1,7 +1,11 @@
 # Data Versioning with DVC 
 
-Datasets and ML model getting started
-[versioning tutorial](https://dvc.org/doc/tutorials/versioning).
+[DVC tutorial](https://dvc.org/doc/tutorials/versioning).
+
+**Install DVC**
+```
+pip install dvc
+```
 
 ## How DVC works
 
