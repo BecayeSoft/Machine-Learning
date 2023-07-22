@@ -7,27 +7,19 @@ In this directory, there are two files that  train a Random Forest model on the 
 * `train.py`: manually logs the information
 * `train-autolog.py` automatically logs the information
 
-<br>
-
-
-<br>
-<h3 style="color:rgb(136 19 55); font-weight:bold">Get Started</h3>
-<br>
+## Getting Started
 
 ```
 pip install -r requirements.txt         # or pip install mlflow
 ```
-
 
 **Set experiment name**
 ```
 mlflow.set_experiment("Iris Classification")
 ```
 
-<br>
-<h3 style="color:rgb(136 19 55); font-weight:bold">Auto Logging</h3>
-<br>
-## 
+## Auto Logging
+
 ```
 mlflow.sklearn.autolog()
 ```
@@ -35,10 +27,7 @@ The autolog functionality automatically captures and logs relevant information d
 
 [See the supported libraries here](https://mlflow.org/docs/latest/tracking.html#automatic-logging).
 
-
-<br>
-<h3 style="color:rgb(136 19 55); font-weight:bold">Manual Logging</h3>
-<br>
+## Manual Logging
 
 You can also manually log experiments.
 
@@ -71,9 +60,7 @@ mlflow.log_params(params)
 mlflow.sklearn.log_model(clf, "model")
 ```
 
-<br>
-<h3 style="color:rgb(136 19 55); font-weight:bold">Visualize experiments</h3>
-<br>
+## Visualize experiments
 
 ```
 mlflow ui
